@@ -7653,7 +7653,7 @@ namespace binpack
                   << skippedForPly << " ply"
                   << '\n';
 
-      if (buffer.size() > bufferSize - 1000)
+      if (buffer.size() > bufferSize)
       {
         outputFile.write(buffer.data(), buffer.size());
         buffer.clear();

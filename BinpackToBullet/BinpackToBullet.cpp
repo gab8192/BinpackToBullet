@@ -5,7 +5,7 @@
 int main(int argc, char** argv)
 {
   if (argc != 6) {
-    std::cout << "BinpackToMarlin <input> <output> <min-ply> <max-score> <pos-count>" << std::endl;
+    std::cout << "BinpackToBullet <input> <output> <min-ply> <max-score> <pos-count>" << std::endl;
     return 0;
   }
 
